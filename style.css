@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+/* card section design */
+.card {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.card-box{
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-box img{
+    width: 300px;
+}
+.card-box h1{
+    color:rgba(12, 12, 12, 0.356);
+}
+.card-content{
+    display: flex;
+    margin-top: 10px;
+}
+.wrapper_card{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card-content input{
+    background-color: rgba(12, 12, 12, 0.5);
+    color: white;
+    font-weight: 400;
+    width: 250px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.card-content i{
+    background-color: black;
+    color: wheat;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* creat card section start */
+.creat-card-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#22232d;
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 0 40px 2px #22232d6b;
+}
+
+.creat-card-content{
+    width: 80%;
+    cursor: pointer;
+}
+.btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* xtra class working in js */
+
+.work_done{
+    color: #80808052;
+}
